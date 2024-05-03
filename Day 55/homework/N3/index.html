@@ -1,0 +1,19 @@
+<input type="text" id="input-text" placeholder="Enter text">
+<input type="text" id="input-color" placeholder="Enter color">
+<button id="button-display">Display</button>
+<p id="paragraph-display"></p>
+
+<script>
+const inputText = document.getElementById("input-text");
+const inputColor = document.getElementById("input-color");
+const buttonDisplay = document.getElementById("button-display");
+const paragraphDisplay = document.getElementById("paragraph-display");
+
+buttonDisplay.addEventListener("click", () => {
+  const text = inputText.value;
+  const color = inputColor.value;
+
+  paragraphDisplay.textContent = text;
+  paragraphDisplay.style.color = color;
+});
+</script>

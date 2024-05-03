@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'font';
+    src: url(assets\fonts\Figtree-Italic-VariableFont_wght.ttf);
+}
+body{
+    background-color: #F5D04E;
+    font-family: 'font';
+}
+.whole{
+    border: solid;
+    margin: auto;
+    height: 550px;
+    width: 400px;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: white;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 10px solid;
+    border-bottom: 10px solid;
+}
+.img{
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.learning{
+    margin-left: 30px;
+    border: 1px none;
+    height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #F7D04D;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 0px;
+}
+.smalltext{
+    margin-left: 34px;
+    font-weight: 540;
+}
+.header{
+    margin-left: 34px;
+    font-size: 30px;
+}
+.smallertext{
+    padding-left: 30px;
+    color:hsl(0, 0%, 55%);
+    font-size: 18px;
+}
+.avatar{
+    height: 35px;
+    width: 35px;
+    margin-left: 34px;
+}
+.name{
+    position: absolute;
+    top: 596px;
+    right: 870px;
+    color: black;
+    font-weight: bolder;
+}

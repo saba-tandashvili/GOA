@@ -1,0 +1,108 @@
+body{
+    background-color: #F3E5D8;
+}
+.whole{
+    background-color: white;
+    height: 2300px;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+
+}
+.image{
+    height: 350px;
+    width: 700px;
+    margin-left: 55px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.headtext{
+    font-size: 50px;
+    color: #303030;
+    margin-left: 30px;
+}
+.smalltext{
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #7D7B7C;
+}
+.div2{
+    background-color: hsl(322, 100%, 96%);
+    margin-left: 30px;
+    height: 200px;
+    width: 700px;
+    border-radius: 10px;
+}
+.N1{
+    color: #66394D;
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.list{
+    margin-left: 30px;
+}
+.prep{
+    font-weight: bold;
+}
+#total{
+    font-size: 23px;
+    color: black;
+}
+.small{
+    color: hsl(0, 0%, 40%);
+    font-size: 18px;
+}
+.header{
+    color: #7E4432;
+    margin-left: 30px;
+    font-size: 35px;
+}
+.headernum{
+    color: #7E4432;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.smth{
+    font-size: 25px;
+    margin-left: 100px;
+}
+.line{
+    color: hsl(0, 0%, 70%);
+}
+.calories1{
+    position: absolute;
+    font-size: 25px;
+    color: #734A41;
+    font-weight: bold;
+    top: 1998px;
+    left: 1000px;
+}
+.calories2{
+    position: absolute;
+    font-size: 25px;
+    color: #734A41;
+    font-weight: bold;
+    top: 2080px;
+    left: 1000px;
+
+}
+.calories3{
+    position: absolute;
+    font-size: 25px;
+    color: #734A41;
+    font-weight: bold;
+    top: 2170px;
+    left: 1000px;
+}
+.calories4{
+    position: absolute;
+    font-size: 25px;
+    color: #734A41;
+    font-weight: bold;
+    top: 2260px;
+    left: 1000px;
+}
