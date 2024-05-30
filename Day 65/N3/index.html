@@ -1,0 +1,40 @@
+<form id="profileForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="lastName">Last Name:</label><br>
+    <input type="text" id="lastName" name="lastName"><br>
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br>
+    <label for="birthYear">Birth Year:</label><br>
+    <input type="number" id="birthYear" name="birthYear"><br>
+    <input type="submit" value="Submit">
+</form>
+<div id="profile"></div>
+
+<script>
+// Get the profile form and profile element
+var profileForm = document.getElementById("profileForm");
+var profileElement = document.getElementById("profile");
+
+// Add a submit event listener to the profile form
+profileForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Get the user's input
+    var name = document.getElementById("name").value;
+    var lastName = document.getElementById("lastName").value;
+    var age = document.getElementById("age").value;
+    var birthYear = document.getElementById("birthYear").value;
+
+    // Create a profile object
+    var profile = {
+        name: name,
+        lastName: lastName,
+        age: age,
+        birthYear: birthYear
+    };
+
+    // Set the text content of the profile element
+    profileElement.textContent = "Name: " + profile.name + " " + profile.lastName + "\nAge: " + profile.age + "\nBirth Year: " + profile.birthYear;
+});
+</script>
